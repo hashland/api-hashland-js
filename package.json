@@ -1,0 +1,26 @@
+{
+  "name": "api-hashland",
+  "version": "0.0.1",
+  "description": "JavaScript Hashland API",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashland/api-hashland-js.git"
+  },
+  "author": "Hashland GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashland/api-hashland-js/issues"
+  },
+  "homepage": "https://github.com/hashland/api-hashland-js#readme",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
